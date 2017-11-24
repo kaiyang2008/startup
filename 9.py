@@ -6,8 +6,9 @@ def describe_p(person):
     try:
         print('Occupation:',person['occupation'])
     except KeyError:
-        pass
+        print("No occupation key")
 
 person = { "name":"kaiy","age":42}
+person["occupation"] = "IT"
 
 describe_p(person)
