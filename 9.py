@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import sys
+import os
 
 def describe_p(person):
     print('Descript of ',person['name'])
